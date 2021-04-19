@@ -103,7 +103,7 @@ ol li:nth-last-of-type(2n+1){
 
 img{
     float: right;
-    margin-right: 50px;
+    margin-right: 10px;
 }
 
 .blogs, .blogs h2, .blogs a{
