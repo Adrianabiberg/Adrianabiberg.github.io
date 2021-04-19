@@ -96,15 +96,14 @@ ol li:nth-last-of-type(2n+1){
 }
 
 .abilities {
-    padding: 40px 30px 30px 30px;
+    padding: 40px 30px 30px 60px;
     background-color: #ecece7;
     float: left;
 }
 
-.abilities img{
+img{
     float: right;
     margin-right: 50px;
-    margin-top: 5px;
 }
 
 .blogs, .blogs h2, .blogs a{
