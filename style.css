@@ -96,7 +96,7 @@ ol li:nth-last-of-type(2n+1){
 }
 
 .abilities {
-    padding: 40px 60px 40px 100px;
+    padding: 40px 40px 40px 100px;
     background-color: #ecece7;
     float: left;
 }
