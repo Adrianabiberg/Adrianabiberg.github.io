@@ -10,6 +10,7 @@ h1{
 
 h2{
     font-family:Playfair Display, serif;
+    color:rgb(182, 62, 41);
 }
 
 .softskills{
@@ -28,7 +29,7 @@ body{
     font-family: Lato, sans-serif;
 }
 
-img{
+.presentation img{
     border-radius: 50%;
     position: absolute;
     top: 130px;
@@ -92,4 +93,23 @@ img{
 
 ol li:nth-last-of-type(2n+1){
     font-weight: bold;
+}
+
+.abilities {
+    padding: 40px 30px 30px 30px;
+    background-color: #ecece7;
+    float: left;
+}
+
+.abilities img{
+    float: right;
+    margin-right: 50px;
+    margin-top: 5px;
+}
+
+.blogs, .blogs h2, .blogs a{
+    padding: 20px 30px 30px 30px;;
+    background-color: #b63e29;
+    color: whitesmoke;
+    text-align: center;
 }
