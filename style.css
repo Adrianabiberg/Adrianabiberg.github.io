@@ -1,0 +1,95 @@
+
+h1{
+    font-family:Playfair Display, serif;
+    font-weight:300px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 20px;
+    margin: auto;
+}
+
+h2{
+    font-family:Playfair Display, serif;
+}
+
+.softskills{
+    font: size 16px;
+    font-family: Lato, sans-serif;
+}
+
+.hardskills{
+    font-size: 16,5px;
+    font-family: Lato, sans-serif;
+}
+
+body{
+    background-color: rgba(46, 132, 89, 0.3);
+    color: rgba(1, 9, 5, 0.88);
+    font-family: Lato, sans-serif;
+}
+
+img{
+    border-radius: 50%;
+    position: absolute;
+    top: 130px;
+    left: 50px;
+    padding: 2px;
+    background-color: tomato;
+}
+
+.button2 {
+    padding: 8px;
+    font-family: Lato, sans-serif;
+    font-weight: bolder;
+    background-color: rgb(182, 62, 41);
+    text-align: center;
+    border-bottom: 2px solid rgba(46, 132, 89, 0.3));
+    }
+
+.button {
+    padding: 10px;
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.button2 a:hover{
+    color:rgba(1, 9, 5, 0.88);
+}
+    
+.links{
+    font-family: Lato, sans-serif;
+    padding: 10px;
+    font-size: 15,5px;
+    text-decoration: none;
+    font-weight: 900;
+}
+
+.rodape{
+    text-align: center;
+    font-weight: bold;
+}
+
+.presentation {
+    padding: 150px;
+    background-color: whitesmoke;
+}
+
+.infopessoal {
+    position: absolute;
+    left: 300px;
+    top: 150px;
+    right: 10%;
+    text-align: justify;
+    max-height: 200px;
+    overflow:auto;
+}
+
+.infopessoal h4{
+    font-style: italic;
+    font-weight: bold;
+}
+
+ol li:nth-last-of-type(2n+1){
+    font-weight: bold;
+}

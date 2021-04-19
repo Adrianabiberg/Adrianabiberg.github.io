@@ -4,73 +4,32 @@
         <meta charset="UTF-8">
         <title>Portfólio Adriana Biberg</title>
         <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Playfair+Display:ital@0;1&display=swap" rel="stylesheet">
-        <style>
-            h1{
-                font-family:Playfair Display, serif;
-                font-weight:300px;
-            }
-            h2{
-                font-family:Playfair Display, serif;
-            }
-            .infopessoal{
-                font-style: italic;
-                font-weight: 150;
-            }
-            p{
-                font-family: Lato, sans-serif;
-            }
-            .softskills{
-                font: size 16px;
-                font-family: Lato, sans-serif;
-            }
-            .hardskills{
-                font-size: 16,5px;
-                font-family: Lato, sans-serif;
-            }
-            body{
-                background-color: rgba(46, 132, 89, 0.3);
-                color: rgba(1, 9, 5, 0.88)
-            }
-            img{
-                border-radius: 50%;
-            }
-            .button{
-                padding: 10px;
-                color:rgba(199, 91, 24, 0.9);
-                font-weight: bold;
-                text-decoration: none;
-                font-family: Lato, sans-serif;
-                }
-            .links{
-                font-family: Lato, sans-serif;
-                padding: 10px;
-                font-size: 15,5px;
-                text-decoration: none;
-                font-weight: 900;
-            }
-            .rodape{
-                text-align: center;
-                font-weight: bold;
-            }
-        </style>
+        <link rel="stylesheet" href="style.css">
     </head>
     <body>
 
-        <br>
-        <a href="#sobremim" class="button">Sobre mim</a>
-        <a href="#fotodeadriana" class="button">Minha Foto</a>
-        <a href="#habilidades" class="button">Habilidades</a>
-        <a href="#meusblogs" class="button">Meus blogs de referência</a><br>
-        <hr>
+        <div class="button2"> 
+            <a href="#sobremim" class="button">Sobre mim</a>
+            <a href="#fotodeadriana" class="button">Minha Foto</a>
+            <a href="#habilidades" class="button">Habilidades</a>
+            <a href="#meusblogs" class="button">Meus blogs de referência</a><br>
+        </div>
 
-        <img id="fotodeadriana" src="fotodeadrianabiberg.jpg" width="200px" alt="Foto de Adriana Biberg">
-        <h1>Adriana dos Santos Biberg</h1>
-        <h4 class="infopessoal">Brasileira, Florianópolis - SC</h4>
-        <p id="sobremim">Sou estudante de <strong>Desenvolvimento Web na Trybe</strong> desde abril/21. <strong>Bacharel em Psicologia</strong> pela Uniamérica, tendo atuado como psicóloga clínica e como assistente de cursos e eventos na Hoper Educação, além de ter sido voluntária no Núcleo de Apoio aos Estudantes da Uniamérica. Sou natural de Foz do Iguaçu - PR e atualmente moro em Florianópolis - SC</p>
-        <br>
+        <div>
+            <h1>Adriana dos Santos Biberg</h1>
+        </div>
+        <div class="presentation">
+            <div class="foto">
+                <img id="fotodeadriana" src="fotodeadrianabiberg.jpg" width="200px" alt="Foto de Adriana Biberg">
+            </div>
+            <div class="infopessoal">
+                <h4>Brasileira, Florianópolis - SC</h4>
+                <p id="sobremim">Sou estudante de <strong>Desenvolvimento Web na Trybe</strong> desde abril/21. <strong>Bacharel em Psicologia</strong> pela Uniamérica, tendo atuado como psicóloga clínica e como assistente de cursos e eventos na Hoper Educação, além de ter sido voluntária no Núcleo de Apoio aos Estudantes da Uniamérica. Sou natural de Foz do Iguaçu - PR e atualmente moro em Florianópolis - SC</p>
+            </div>
+        </div>
 
         <h2 id="habilidades">Habilidades</h2>
-        <ul>
+        <ol>
             <li class="softskills"><strong>Resolução de Problemas</strong></li>
             <li class="softskills">Empatia</li>
             <li class="softskills">Comunicação</li>
@@ -81,7 +40,7 @@
             <li class="hardskills">GIT - básico</li>
             <li class="hardskills">HTML - básico</li>
             <li class="hardskills">Excel - intermediário</li>            
-        </ul>
+        </ol>
         <br>
 
         <h2 id="meusblogs">Meus blogs de referência</h2>
